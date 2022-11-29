@@ -1,0 +1,285 @@
+.chatbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 50px;
+    width: 320px;
+
+    background-color: rgb(243, 243, 243);
+
+    z-index: 99;
+
+    border-right-width: 1px;
+    border-right-color: rgb(228, 228, 228);
+    border-right-style: solid;
+}
+
+.top-info-container-chatbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 38px;
+
+    padding: 4px 10px 6px 10px;
+
+    font-weight: 700;
+    font-size: 13px;
+
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.giftsub-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 64px;
+
+    font-weight: 500;
+    font-size: 13px;
+
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.left-arrow, .right-arrow {
+    height: 16px;
+}
+
+.left-area {
+    flex: 1;
+    padding-left: 8px;
+
+    background-color: rgb(243, 243, 243);
+}
+
+.left-area:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.mid-area {
+    flex: 10;
+
+
+    background-color: rgb(243, 243, 243);
+}
+
+.gift-area {
+    display: flex;
+}
+
+.gift-1{
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.gift-icon1 {
+    height: 32px;
+}
+
+.gift-icon2 {
+    height: 18px;
+}
+
+.right-area {
+    flex: 1;
+    padding-left: 8px;
+
+    background-color: rgb(243, 243, 243);
+}
+
+.right-area:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.viewer {
+    margin: 1px 6px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.viewer:hover {
+    background-color: rgb(218, 218, 218);
+    transition: 0.2s;
+}
+
+.user-viewer {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 0px;
+    border-radius: 2px;
+    color: rgba(235, 21, 255, 0.808);
+    cursor: pointer;
+}
+
+.user-viewer:hover {
+    background-color: rgb(197, 197, 197);
+    transition: 0.2s;
+}
+
+.user-viewer2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 0px;
+    border-radius: 2px;
+    color: rgba(113, 0, 219, 0.815);
+    cursor: pointer;
+}
+
+.user-viewer2:hover {
+    background-color: rgb(197, 197, 197);
+    transition: 0.2s;
+}
+
+.user-viewer3{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 0px;
+    border-radius: 2px;
+    color: rgba(228, 186, 0, 0.932);
+    cursor: pointer;
+}
+
+.user-viewer3:hover {
+    background-color: rgb(197, 197, 197);
+    transition: 0.2s;
+}
+
+.user-viewer4{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 2px 0px;
+    border-radius: 2px;
+    color: rgba(0, 199, 50, 0.808);
+    cursor: pointer;
+}
+
+.user-viewer4:hover {
+    background-color: rgb(197, 197, 197);
+    transition: 0.2s;
+}
+
+.message-viewer {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.chat-part {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 120px;
+    width: 100%;
+}
+
+.chat-mode {
+    display: flex;
+    align-items: initial;
+    justify-content: flex-start;
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    right: 6px;
+    bottom: 60px;
+
+    padding-top: 6px;
+    
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    background-color: rgb(218, 218, 218)
+}
+
+.alert-icon {
+    height: 18px;
+    margin-right: 6px;
+    margin-left: 12px;
+}
+
+.box-chat {
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    margin: 44px 6px 6px 12px;
+    border-radius: 6px;
+
+    height: 130px;
+
+    background-color: rgb(196, 196, 196)
+}
+
+.message-box {
+    flex: 1;
+    height: 20px;
+    border: none;
+    background-color: rgb(196, 196, 196)
+}
+
+.prime-icon2{
+    height: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.bits-icon2 {
+    height: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.emoji-icon {
+    height: 18px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.chat-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.config-icon {
+    height: 18px;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.config-icon:hover {
+    background-color: gray;
+}
+
+.chat-post {
+    font-size: 14px;
+    font-weight: 700;
+
+    padding: 6px;
+
+    border-radius: 4px;
+
+    margin: 0px 6px 0px 2px;
+
+    background-color: #9147ff;
+
+    color: white;
+    cursor: pointer;
+}
+
+.chat-post:hover {
+    background-color: #8535fd;
+}

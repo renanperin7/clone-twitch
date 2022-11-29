@@ -1,0 +1,188 @@
+.video-grid {
+    position: relative;
+    left: 242px;
+    top: 52px;
+    width: 1340px;
+
+    z-index: 98;
+}
+
+.live-show {
+    position: absolute;
+    left: 20px;
+    bottom: -6px;
+
+    background-color: red;
+    color: white;
+
+    padding: 4px 6px;
+
+    border-radius: 4px;
+    border: 1px solid rgb(255, 255, 255);
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.channel-info {
+    display: grid;
+    grid-template-columns: 90px 1fr 305px;
+    margin-left: 8px;
+}
+
+.channel-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.channel-picture {
+    width: 70px;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+}
+
+.live-info {
+    margin-top: 22px;
+    margin-left: 4px;
+}
+
+.channel-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.channel-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.channel-game {
+    font-size: 14px;
+    font-weight: 500;
+    color: #bf94ff;
+    margin-top: 6px;
+}
+
+.channel-buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: 8px;
+    padding-right: 16px;
+}
+
+.follow-button, .notification-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(235, 235, 235);
+    margin-left: 12px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.follow-button:hover, .notification-button:hover {
+    background-color: rgb(207, 207, 207);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.sub-button {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #9147ff;
+    margin-left: 12px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.sub-button:hover {
+    background-color: #7518ff;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.like-img, .notification-img, .sub-img {
+    height: 18px;
+}
+
+.sub-img {
+    margin-right: 8px;
+}
+
+.live-view-time {
+    position: relative;
+}
+
+.viewer-indicator-img {
+    position: absolute;
+    top: 10px;
+    left: 116px;
+}
+
+.viewer-img {
+    height: 20px;
+}
+
+.viewer-indicator {
+    position: absolute;
+    top: 14px;
+    left: 138px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.time-indicator {
+    position: absolute;
+    top: 14px;
+    left: 180px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.share-icon {
+    position: absolute;
+    top: 8px;
+    right: 44px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.share-img {
+    height: 20px;
+}
+
+.share-icon:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.channel-menu {
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.channel-menu:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.channel-menu-img {
+    height: 20px;
+}
